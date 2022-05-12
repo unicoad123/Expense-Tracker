@@ -1,0 +1,45 @@
+1.What advantage does typescript gives us?Explain with example?
+PROS
+->Optional static typing
+->Early spotted bugs
+->Predictability
+->Readability
+->Rich IDE support
+->Cross-platform and cross-browser compatibility
+CONS
+->Not true static typing
+->One more JavaScript to learn
+->Bloated code
+->Adding extra step — transpiling
+
+2.What does typescript add to javascript?Explain each of them in your own words. Research on google if you are confused.
+->When you have a large codebase
+->When you really feel the need for speed
+->When a library or framework recommends TypeScript
+
+3.Why do we need typescript compiler?
+TypeScript simplifies JavaScript code, making it easier to read and debug. TypeScript is open source. 
+TypeScript provides highly productive development tools for JavaScript IDEs and practices, like static checking. 
+TypeScript makes code easier to read and understand.
+
+4.What happens when you compile?
+A compiler takes the program code (source code) and converts the source code to a machine language module (called an object file). Another specialized program, 
+called a linker, combines this object file with other previously compiled object files (in particular run-time modules) to create an executable file.
+
+5.What are the different types available in typescript?
+Some common data types in TypeScript are: number , string , boolean , enum , void , null , undefined , any , never , Array and tuple .
+
+6.What do you mean typescript can infer the types? What is the advantage of this?
+In TypeScript, there are several places where type inference is used to provide type information when there is no explicit type annotation. 
+For example, in this code
+
+let x = 3;
+   
+let x: number
+Try
+The type of the x variable is inferred to be number. 
+This kind of inference takes place when initializing variables and members, setting parameter default values, and determining function return types.
+
+7.What is the problem with type inferenece sometime and how do you solve with type casting?
+
+
