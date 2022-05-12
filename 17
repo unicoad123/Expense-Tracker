@@ -1,0 +1,10 @@
+1.What are environment variables and what should we use it for?
+Shell scripts and batch files use environment variables to communicate data and preferences to child processes. 
+They can also be used to store temporary values for reference later in a shell script. 
+
+2.What all thing should you do to prepare code for production?Explain each one of them and why we need it?
+A CI/CD workflow includes two processes: Continuous Integration (CI) and Continuous Deployment (CD). 
+Continuous Integration allows teams to frequently merge changes and new code into the main development branch, 
+while Continuous Deployment ships them off to the next internal environment, or directly to production.
+
+3.
